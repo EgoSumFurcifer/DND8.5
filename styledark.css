@@ -1,0 +1,81 @@
+body {
+  background-image: url("https://www.photos-public-domain.com/wp-content/uploads/2011/03/black-parchment-paper-texture.jpg");
+}
+* {
+  box-sizing: border-box;
+}
+img {
+	float: right;
+}
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+  padding 50px;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+#text {
+	padding: 50px;
+}
+
+
+h1, h2, h3, h4 {
+font-family: 'goudy_mediaevalregular', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+}
+
+h1 {
+	border-bottom-style: solid;
+	border-width: 5px;
+	border-radius: 5px;
+	border-color: black;
+}
+
+h2, h3 {
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-radius: 2px;
+	border-color: black;
+}
+
+body {
+	font-family: 'tex_gyre_bonumregular';
+	color: rgb(210, 182, 70);
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+p {
+	font-size: 16px;
+}
+
+#pages {
+	width: 100%;
+	border: none;
+}
