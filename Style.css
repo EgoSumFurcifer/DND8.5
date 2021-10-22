@@ -28,9 +28,6 @@ td, th {
   padding: 8px;
 }
 
-
-
-
 h1, h2, h3, h4 {
 /* font-family: 'blackwood_castleregular', Arial, sans-serif; */
 font-family: 'blackwood_castleregular';font-size: 22px;
@@ -85,21 +82,12 @@ p {
 	font-size: 16;
 }
 
-#maintitle {
-	background-image: url("Sword.png");
-}
-
 .grow { 
 transition: all .2s ease-in-out; 
 }
 
 .grow:hover { 
 transform: scale(1.03); 
-}
-/banner/ {
-	Position: fixed;
-	width: 100%;
-	top: 50px;
 }
 
 #bragging {
@@ -119,5 +107,5 @@ transform: scale(1.03);
 }
 
 #disclaimer {
-	font-size: 5px;
+	font-size: 8px;
 }
