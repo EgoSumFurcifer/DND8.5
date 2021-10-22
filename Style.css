@@ -1,6 +1,7 @@
 body {
   background-image: url("https://naldzgraphics.net/wp-content/uploads/2014/07/1-certificate-paper-texture.jpg");
-  padding: 50px;
+  Padding: 2.5%;
+  padding-bottom: 2.5%;
 }
 
 img {
@@ -13,8 +14,7 @@ img {
 /* Create two equal columns that sits next to each other */
 .column {
   flex: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  padding: 1%;
 }
 table {
   border-collapse: collapse;
@@ -32,8 +32,8 @@ td, th {
 
 
 h1, h2, h3, h4 {
-/* font-family: 'blackwood_castleregular', sans-serif; */
-font-family: 'blackwood_castleregular', 'Metamorphous', serif;font-size: 22px;
+/* font-family: 'blackwood_castleregular', Arial, sans-serif; */
+font-family: 'blackwood_castleregular';font-size: 22px;
 font-weight:normal;
 font-style:normal;
 }
@@ -100,4 +100,24 @@ transform: scale(1.03);
 	Position: fixed;
 	width: 100%;
 	top: 50px;
+}
+
+#bragging {
+	width: 30%;
+	padding: 1%;
+	display: inline-block;
+}
+
+#tableofcontents {
+	width: 63%;
+	padding: 1%;
+	display: inline-block;
+}
+
+#text {
+	display: inline-block;
+}
+
+#disclaimer {
+	font-size: 5px;
 }
